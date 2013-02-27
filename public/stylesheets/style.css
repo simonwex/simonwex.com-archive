@@ -1,0 +1,139 @@
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+@font-face {
+  font-family: 'Chunk';
+  src: url('/fonts/chunkfive-webfont.eot');
+  src: local('?'), url('/fonts/chunkfive-webfont.woff') format('woff'), url('/fonts/chunkfive-webfont.ttf') format('truetype'), url('/fonts/chunkfive-webfont.svg#webfontAzRiHJA9') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+  osorange: #f26523;
+  osblue: #6dd0f7;
+  osgreen: #38b44a;
+  osyellow: #fcf569;
+  ospurple: #662e91;
+*/
+
+body{
+}
+
+.hero-unit-oldschool {
+  font-family: Chunk, serif;
+  padding: 60px;
+  margin: 0;
+  margin-bottom: 30px;
+  color: inherit;
+  width: 50%;
+  background-color: #eeeeee;
+  border-right: 5em solid #f26523;
+  overflow:  
+}
+
+.hero-unit-oldschool h1 {
+  font-size: 6em;
+  font-weight: 200;
+  line-height: 1em;
+}
+
+#bars {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+  font-family: Chunk, serif;
+  height: 12em;
+  width: 25%;
+  border-left: 40em solid #fcf569;
+  border-right: 9em solid #38b44a;
+  background-color: #6dd0f7;
+}
+
+.hero-unit-oldschool p {
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 1em;
+}
+
+.editorial p:first-letter {
+  font-family: Chunk, serif;
+  font-weight: 50;
+  line-height: 1.4em;
+  font-size: 1.4em;
+}
+
+#social_icons{
+  list-style: none;
+}
+#social_icons li{
+  display: block;
+  float: left;
+  margin-right: 0.8em;
+  background-position: top-right;
+  background-repeat: no-repeat;
+}
+
+#social_icons li a{
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+#social_icons li a span{
+  display: none;
+}
+
+#social_icons li.youtube{
+  background-image: url('/images/social_icons/youtube_dark.png');
+}
+#social_icons li.youtube:hover{
+  background-image: url('/images/social_icons/youtube_active.png');
+}
+
+#social_icons li.vimeo{
+  background-image: url('/images/social_icons/vimeo_dark.png');
+}
+#social_icons li.vimeo:hover{
+  background-image: url('/images/social_icons/vimeo_active.png');
+}
+#social_icons li.twitter{
+  background-image: url('/images/social_icons/twitter_dark.png');
+}
+#social_icons li.twitter:hover{
+  background-image: url('/images/social_icons/twitter_active.png');
+}
+#social_icons li.rss{
+  background-image: url('/images/social_icons/rss_dark.png');
+}
+#social_icons li.rss:hover{
+  background-image: url('/images/social_icons/rss_active.png');
+}
+
+#wrapper{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  /*margin: 0 auto ;*/
+}
+#footer {
+  height: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#footer {
+  background-color: #f5f5f5;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
