@@ -1,0 +1,42 @@
+body { 
+  background: url("/images/background.jpg") gray fixed;
+}
+
+#fakeViewport{
+  padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */ 
+  max-width: 2048px;
+  margin: auto;
+  background-color: white;
+}
+.navbar{
+  max-width: 2048px;
+  margin: auto;
+
+}
+
+.scroller:nth-child(1n+1){  
+  background: url('/images/scrollers/1.jpg') no-repeat;
+  background-size: 100% auto;
+}
+.scroller:nth-child(2n+2){  
+  background: url('/images/scrollers/2.jpg') no-repeat;
+  background-size: 100% auto;
+}
+.scroller:nth-child(3n+3){  
+  background: url('/images/scrollers/3.jpg') no-repeat;
+  background-size: 100% auto;
+}
+.scroller:nth-child(4n+4){  
+  background: url('/images/scrollers/4.jpg') no-repeat;
+  background-size: 100% auto;
+}
+
+.scroller{
+  min-height: 500px;
+}
+
+section{
+  min-height: 300px;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
